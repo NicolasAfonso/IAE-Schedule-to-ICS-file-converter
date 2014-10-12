@@ -1,0 +1,15 @@
+Salut à toutes et à tous !
+
+J'ai repris le travail de deux anciens compères du MAE et vous propose une petite extension pour Chrome qui va vous permettre de télécharger votre planning de cours au format ics (standard pour Outlook, Google Calendar, iCal). Comme ça, plus d'excuses pour ne plus arriver à l'heure, puisque vous pouvez synchroniser tout ça sur vos smartphones ;)
+
+Installation :
+1- téléchargez l'archive depuis cette adresse : http://1drv.ms/1rMkAm8 et dézippez-là
+2 - dans chrome tapez chrome://extensions/ dans la barre d'adresse
+3- cochez l'option "mode développeur"(sur la droite de l'écran)
+4 - cliquez sur "Charger l'extension non empaquetée" puis allez chercher l'extension téléchargée à l'étape 1 (prendre le répertoire racine "IAE Schedule to ICS file converter")
+5 - Voilà, pour vérifiez que l'installation s'est bien déroulée allez sur l'intranet de l'IAE, un petit icône aux couleurs de l'école devrait apparaître à droite de votre barre de recherche
+6 - pour télécharger votre planning, il suffit de cliquer sur le bouton qui apparaît désormais sous votre planning ;)
+
+Note : l'accès à n'importe quel page du planning est nécessaire pour identifier votre planning propre et ne pas récupérer tout un tas d'option que vous ne suivez pas! Le planning récupéré s'étend du 1er septembre 2014 au 1er septembre 2015. N'hésitez pas pour les retours !
+
+Nicolas, MAE-2

@@ -1,0 +1,40 @@
+{
+	"manifest_version" : 2,
+	"name": "IAE Schedule to ICS file converter",
+	"description": "Enables you to create an ICS file corresponding to your schedule displayed on your personal intranet page.",
+	"version": "1.5",
+	
+	"icons": { 
+		"16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png" 
+	},
+	
+	"page_action": {
+		"default_icon": {                   
+			"19": "images/icon19.png",           
+            "38": "images/icon38.png"   
+        },
+		"default_title": "Build my ICS file !",
+		"default_popup": "popup.html"
+	},
+	
+	"background": {
+		"scripts": ["background.js"],
+	    "persistent": false
+	  },
+	  
+	"permissions" : [
+		"declarativeContent"
+	],
+	  
+   "content_scripts": [ {
+      "include_globs": [ "http://intranet.iae-grenoble.fr/index/accueil" ],
+      "js": [ "script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+  
+   "converted_from_user_script": true
+   
+}
